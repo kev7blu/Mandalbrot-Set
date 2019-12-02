@@ -37,8 +37,8 @@ int main()
 				}
 				n++;		
 			}
-			//gfx_color(250 * n % 250, 250/ n % 269, 250 + n % 300);
-			gfx_color(1000 * n, n * n * n, 250 + n % 10);
+			gfx_color(250 * n % 250, 250/ n % 269, 250 + n % 300);
+			//gfx_color(2500, 11000 , 250 + n % 10);
 			gfx_point(x,y);
 		}
 	}
