@@ -46,7 +46,7 @@ void gfx_open( int width, int height, const char *title )
 	saved_ysize = height;
 
 	Visual *visual = DefaultVisual(gfx_display,0);
-	if(visual && visual->class==TrueColor) {
+	if(visual && visual->class == TrueColor) {
 		gfx_fast_color_mode = 1;
 	} else {
 		gfx_fast_color_mode = 0;
