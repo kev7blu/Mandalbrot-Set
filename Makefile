@@ -9,3 +9,5 @@ runtests: runtests.o gfx.o Complex.o
 
 clean:
 	rm -f runtests *.o
+	rm -f gfx *.o
+	rm -f Complex *.o
