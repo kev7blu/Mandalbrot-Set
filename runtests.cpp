@@ -1,8 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <cstdlib>
-#include<math.h>
-#include <complex>
+#include "Complex.h"
 extern "C"
 {
 #include "gfx.h"
@@ -25,8 +24,8 @@ int main()
 	{
 		for(int y = 0; y < WINDOW_WIDTH; y++)
 		{
-			std::complex<double> z((x - 600.0) *.003, (y - 400.0) * .003);
-			std::complex<double> c = z;
+			Complex z((x - 600.0) *.003, (y - 400.0) * .003);
+			Complex c = z;
 			int n = 0;	
 			while(n < MaxN)
 			{
